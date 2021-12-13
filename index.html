@@ -20,6 +20,8 @@
       src="https://kit.fontawesome.com/551a4a84f2.js"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="box">
@@ -71,7 +73,7 @@
           <div class="container">
             <div class="about-content">
               <h2>About Us</h2>
-              <p>
+              <p data-aos="fade-out">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Similique eaque voluptate nihil, natus, quia perspiciatis
                 officia modi aliquid dolor amet molestiae? Saepe voluptates
@@ -92,35 +94,50 @@
         <section id="products">
           <div class="container">
             <div class="prd-content">
-              <div class="products-Picrture">
-                <img src="./images/lamp.jpg" width="200" alt="" />
-              </div>
-              <h1 class="prd-name">Tapis</h1>
-              <p class="prd-info">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
-                explicabo odio assumenda perspiciatis facilis consequuntur nulla
-                eius perferendis aut dolorum!
-              </p>
-              <div class="prd-qt">
-                <div class="minus"><i class="fas fa-minus"></i></div>
-                <div class="qt-field">
-                  <input type="number" name="number" id="number-field" />
+              <div class="product">
+                <div class="products-Picture">
+                  <img src="./images/lamp.jpg" width="200" alt="" />
                 </div>
-                <div class="plus"><i class="fas fa-plus"></i></div>
-              </div>
-              <div class="prd-pricing">$80</div>
-              <div class="prd-add">
-                <button class="addtopanel">Add to card</button>
+                <div class="prodcuts-info">
+                  <h1 class="prd-name">Tapis</h1>
+                  <p class="prd-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Iure explicabo odio assumenda perspiciatis facilis
+                    consequuntur nulla eius perferendis aut dolorum!
+                  </p>
+                  <div class="prd-qt">
+                    <div class="minus"><i class="fas fa-minus"></i></div>
+                    <div class="qt-field">
+                      <input
+                        type="number"
+                        min="1"
+                        max="10"
+                        name="number"
+                        id="number-field"
+                      />
+                    </div>
+                    <div class="plus"><i class="fas fa-plus"></i></div>
+                  </div>
+                  <div class="prd-pricing">$80</div>
+                  <div class="prd-add">
+                    <button class="addtopanel">Add to card</button>
+                    <i class="fas fa-cart-arrow-down"></i>
+                  </div>
+                </div>
               </div>
               <div class="otherPrds">
                 <div class="prd-1">
-                  <img src="./images/lamp.jpg" class="prd-1-img" alt="" />
+                  <img src="./images/lamp.jpg" class="prd-1-img" alt="Lamps" />
                 </div>
                 <div class="prd-2">
-                  <img src="./images/dishes.jpg" class="prd-2-img" alt="" />
+                  <img
+                    src="./images/dishes.jpg"
+                    class="prd-2-img"
+                    alt="Dished"
+                  />
                 </div>
                 <div class="prd-3">
-                  <img src="./images/tapis.jpg" class="prd-3-img" alt="" />
+                  <img src="./images/tapis.jpg" class="prd-3-img" alt="Tapis" />
                 </div>
               </div>
             </div>
@@ -130,5 +147,11 @@
     </div>
     <div class="noSup">Not Supported please bring +250px</div>
     <script src="./js/script.js"></script>
+    <script src="./js/import.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
