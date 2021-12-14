@@ -24,7 +24,7 @@
   height: 500vh;
 }
 .box {
-  height: 400vh;
+  height: 405vh;
 }
 html {
   scroll-behavior: smooth;
@@ -433,5 +433,163 @@ nav ul li a:hover {
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
+/* Prd responsive */
+@media (max-width: 467px) {
+  .prd-name {
+    font-size: 24px;
+  }
+  .prd-info {
+    font-size: 12px;
+  }
+  #number-field {
+    width: 40px;
+    height: 40px;
+  }
+  .prd-pricing {
+    font-size: 16px;
+  }
+  .prd-add button {
+    padding: 10px 20px;
+  }
+  .prd-add i {
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+}
+/* Contact */
+
+#contact {
+  height: auto;
+}
+.touch {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+.contact-header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Light);
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.contact-form {
+  flex: 1.5;
+}
+.sociale-email {
+  flex: 1;
+}
+form {
+  background-color: var(--SecondayColor);
+  padding: 40px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+form div input,
+form div textarea {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 10px;
+  color: var(--Dark);
+  font-weight: 550;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+form div input:focus,
+form div textarea:focus {
+  outline: none;
+  border: 2px solid var(--Dark);
+}
+form div textarea {
+  resize: vertical;
+}
+.btn {
+  background-color: var(--MainColor);
+  border: none;
+  color: var(--Light);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.btn:hover {
+  border: 1px solid var(--Light);
+  color: var(--Light);
+  background-color: transparent;
+}
+.sociale {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sociale div i {
+  font-size: 30px;
+  color: var(--Light);
+  cursor: pointer;
+}
+.sociale div i:hover {
+  color: var(--MainColor);
+}
+.email {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Light);
+  font-size: 20px;
+}
+.bar {
+  height: 500px;
+  background-color: var(--Light);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+@media (max-width: 646px) {
+  .touch {
+    flex-direction: column;
+  }
+  .bar {
+    display: none;
+  }
+}
+
+/* Costum responsive things */
+
+@media (max-width: 410px) {
+  .box {
+    height: 700vh;
+  }
+  .prd-content {
+    transform: translateY(600px);
+    -webkit-transform: translateY(600px);
+    -moz-transform: translateY(600px);
+    -ms-transform: translateY(600px);
+    -o-transform: translateY(600px);
+  }
+  #contact {
+    transform: translateY(900px);
+    -webkit-transform: translateY(900px);
+    -moz-transform: translateY(900px);
+    -ms-transform: translateY(900px);
+    -o-transform: translateY(900px);
+  }
+}
+
 /* Notes */
-/*  */
