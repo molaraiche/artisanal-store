@@ -24,7 +24,7 @@
   height: 500vh;
 }
 .box {
-  height: 300vh;
+  height: 400vh;
 }
 html {
   scroll-behavior: smooth;
@@ -110,6 +110,8 @@ nav ul li a:hover {
     align-items: center;
     height: 85vh;
     width: 100%;
+    z-index: 1;
+
     transform: translateX(120%);
     -webkit-transform: translateX(120%);
     -moz-transform: translateX(120%);
@@ -343,8 +345,16 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
 }
+.prodcuts-info {
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+  -moz-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -o-transform: translateY(30px);
+}
 .prd-name {
-  font-size: 40px;
+  font-size: 30px;
+  margin-left: 20px;
   letter-spacing: 2px;
   color: var(--MainColor);
 }

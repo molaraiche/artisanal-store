@@ -96,7 +96,7 @@
             <div class="prd-content">
               <div class="product">
                 <div class="products-Picture">
-                  <img src="./images/lamp.jpg" width="200" alt="" />
+                  <img src="./images/lamp.jpg" width="200" id="principe" alt="" />
                 </div>
                 <div class="prodcuts-info">
                   <h1 class="prd-name">Tapis</h1>
@@ -106,7 +106,9 @@
                     consequuntur nulla eius perferendis aut dolorum!
                   </p>
                   <div class="prd-qt">
-                    <div class="minus"><i class="fas fa-minus"></i></div>
+                    <div class="minusHolder">
+                      <i class="fas fa-minus minus clac"></i>
+                    </div>
                     <div class="qt-field">
                       <input
                         type="number"
@@ -116,12 +118,14 @@
                         id="number-field"
                       />
                     </div>
-                    <div class="plus"><i class="fas fa-plus"></i></div>
+                    <div class="plusHolder">
+                      <i class="fas fa-plus plus calc"></i>
+                    </div>
                   </div>
                   <div class="prd-pricing">$80</div>
                   <div class="prd-add">
                     <button class="addtopanel">Add to card</button>
-                    <i class="fas fa-cart-arrow-down"></i>
+                    <i class="fas fa-cart-arrow-down card"></i>
                   </div>
                 </div>
               </div>
@@ -132,12 +136,16 @@
                 <div class="prd-2">
                   <img
                     src="./images/dishes.jpg"
-                    class="prd-2-img"
+                    class="prd-2-img filter"
                     alt="Dished"
                   />
                 </div>
                 <div class="prd-3">
-                  <img src="./images/tapis.jpg" class="prd-3-img" alt="Tapis" />
+                  <img
+                    src="./images/tapis.jpg"
+                    class="prd-3-img filter"
+                    alt="Tapis"
+                  />
                 </div>
               </div>
             </div>
