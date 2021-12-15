@@ -473,7 +473,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--Light);
+  color: var(--MainColor);
   font-size: 35px;
   letter-spacing: 2px;
 }
