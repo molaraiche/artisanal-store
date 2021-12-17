@@ -257,13 +257,9 @@ nav ul li a:hover {
 /* Blog */
 
 .blog-container {
-  height: 400vh;
+  height: 500vh;
 }
-/* @media (max-width: 417px) {
-  .blog-container {
-    height: 600vh;
-  }
-} */
+
 .blog-articles {
   height: 100vh;
   display: flex;
