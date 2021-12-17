@@ -259,6 +259,11 @@ nav ul li a:hover {
 .blog-container {
   height: 400vh;
 }
+@media (max-width: 417px) {
+  .blog-container {
+    height: 500vh;
+  }
+}
 .blog-articles {
   height: 100vh;
   display: flex;
