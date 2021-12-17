@@ -259,11 +259,11 @@ nav ul li a:hover {
 .blog-container {
   height: 400vh;
 }
-@media (max-width: 417px) {
+/* @media (max-width: 417px) {
   .blog-container {
-    height: 500vh;
+    height: 600vh;
   }
-}
+} */
 .blog-articles {
   height: 100vh;
   display: flex;
@@ -290,13 +290,13 @@ nav ul li a:hover {
   text-align: justify;
   line-height: 1.8rem;
 }
-@media (max-width: 502px) {
+/* @media (max-width: 502px) {
   #blog {
-    transform: translateY(100px);
-    -webkit-transform: translateY(100px);
-    -moz-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    -o-transform: translateY(100px);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
   }
 }
 @media (max-width: 416px) {
@@ -316,7 +316,7 @@ nav ul li a:hover {
     -ms-transform: translateY(800px);
     -o-transform: translateY(800px);
   }
-}
+} */
 /* prd  */
 #products {
   height: 100vh;
